@@ -2,12 +2,14 @@
 $nama = ["Budi", "rina", "santi", "sintia", "dony", "kukubima"];
 $prodi = ["Elektro", "informatika", "elektro", "informatika", "manajemen", "kedokteran"];
 $matkul = ["teknik radio", "skibidi", "sigma", "yes yes", "dop dop","woi"];
-$nilai = ["90","90","80","70","30","100"];
+$nilai = ["90","90","80","30","30","100"];
 $grade = ["","","","","",""];
 $keterangan =  ["","","","","",""];
 echo "
 <center>		
-	<table border=10 width=600px>
+<h1> Oiiii Kimakkkkk
+
+	<table border=10 width=800px height=50px>
 			<tr>
 					<td>Nama mahasiswa</td>
 					<td>prodi</td>
@@ -24,12 +26,12 @@ echo "
 	} else if ($nilai[$i] >= 70){
 		$grade[$i] = "B";
 		$keterangan[$i] = "Lulus";
-	} else if ($nilai[$i] >= 30){
+	} else if ($nilai[$i] < 50){
 		$grade[$i] = "C";
 		$keterangan[$i] = "Ulang";
 	}
 	
-	if ($prodi[$i] == "informatika"){
+	if ($prodi[$i] == "informatika" && $grade[$i] == "A"){
 			echo "
 			<tr>
 				<td>$nama[$i]</td>
