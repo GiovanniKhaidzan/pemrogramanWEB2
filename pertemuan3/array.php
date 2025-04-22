@@ -31,7 +31,6 @@ echo "
 		$keterangan[$i] = "Ulang";
 	}
 	
-	if ($prodi[$i] == "informatika" && $grade[$i] == "A"){
 			echo "
 			<tr>
 				<td>$nama[$i]</td>
@@ -42,7 +41,7 @@ echo "
 				<td>$keterangan[$i]</td>
 			</tr>
 			";
-	}
+
 	
 	
 	}
