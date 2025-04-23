@@ -50,12 +50,12 @@
 				<td>: $masuk</td>
 			</tr>
 			<tr>
-				<td><hr></td>
-				<td><hr></td>
-			</tr>
-			<tr>
 				<td>Lama Kuliah</td>
 				<td>: $lamaKuliah tahun</td>
+			</tr>
+			<tr>
+				<td><hr></td>
+				<td><hr></td>
 			</tr>
 			<tr>
 				<td>Biaya Buku</td>
@@ -65,10 +65,7 @@
 				<td>Spp</td>
 				<td>: Rp.$spp</td>
 			</tr>
-			<tr>
-				<td><hr></td>
-				<td><hr></td>
-			</tr>
+
 			<tr>
 				<td>Biaya Registrasi</td>
 				<td>: Rp.$registrasiAkhir</td>
