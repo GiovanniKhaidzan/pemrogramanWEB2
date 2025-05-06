@@ -36,10 +36,7 @@
                                    <input type="radio" name="sarjana" id="" value="s2" >S2
                                    <input type="radio" name="sarjana" id="" value="s2" >S3 
                             </td>
-                     </tr>
-                     <tr>
-                            <td><hr></td>
-                            <td><hr></td>
+                            
                      </tr>
               </table>
               <input type="submit" value="PROSES">
